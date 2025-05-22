@@ -5,7 +5,6 @@ import os
 # python RSA.py -file image.png -public "" -private ""
 
 
-
 def encrypt_file(file_path, public_key):
     n, e = map(int, public_key.split(':'))
     
